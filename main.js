@@ -1,12 +1,10 @@
-const add = function(num1, num2) 
-{
-	return num1 + num2;
-};
+const add = ((num1, num2) => num1 + num2);
 
-const subtract = function(num1, num2) 
-{
-  return num1 - num2;
-};
+const subtract = ((num1, num2) => num1 - num2);
+
+const multiply = ((num1, num2) => num1 * num2);
+
+const divide = ((num1, num2) => num1 / num2);
 
 const sum = function(nums) 
 {
@@ -14,16 +12,6 @@ const sum = function(nums)
 	for(let i = 0; i < nums.length; i++)
   {
     result +=nums[i];
-  }
-  return result;
-};
-
-const multiply = function(nums) 
-{
-  result = 1;
-	for(let i = 0; i < nums.length; i++)
-  {
-    result *=nums[i];
   }
   return result;
 };
@@ -49,14 +37,4 @@ const factorial = function(num)
 
  if(num == 0) {result = 1;}
  return result;
-};
-
-// Do not edit below this line
-module.exports = {
-  add,
-  subtract,
-  sum,
-  multiply,
-  power,
-  factorial
 };
