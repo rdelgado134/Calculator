@@ -1,3 +1,20 @@
+let n1 = 0;
+let n2 = 0;
+let op = '+'; //THIS HAS TO BE ABLE TO CHANGE TO THE INPUT OF THE USER
+
+/*switch(op)
+{
+    case '+': add(n1, n2); break;
+    case '-': subtract(n1, n2); break;
+    case '*': multiply(n1, n2); break;
+    case '/': divide(n1, n2); break;
+}*/
+
+function operate(op, n1, n2) 
+{
+
+}
+
 const add = ((num1, num2) => num1 + num2);
 
 const subtract = ((num1, num2) => num1 - num2);
