@@ -1,9 +1,32 @@
 .calculatorShell
 {
     border: solid pink 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    padding:10px;
 }
 
 .outputScreen
 {
     border: solid black 2px;
+    width: 140px;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(173, 192, 215);
+    font-family: 'digital-7';
+}
+
+@font-face
+{
+    font-family:'digital-7';
+    src: url('/fonts/digital-7.ttf') format('truetype');
+}
+
+button
+{
+    padding:10px;
+    margin:2px;
 }
