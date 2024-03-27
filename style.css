@@ -12,7 +12,9 @@
 .outputScreen
 {
     border: solid black 2px;
-    width: 140px;
+    width: 360px;
+    height: 50px;
+    font-size: large;
     display: flex;
     justify-content: right;
     background-color: rgb(173, 192, 215);
@@ -28,5 +30,14 @@
 button
 {
     padding:10px;
-    margin:2px;
+    margin:5px;
+    width: 80px;
+    height: 80px;
+    font-weight: bolder;
+}
+
+.row1, .row2, .row3, .row4, .row5
+{
+    display:flex;
+    justify-content: center;
 }
